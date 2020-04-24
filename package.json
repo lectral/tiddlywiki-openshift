@@ -1,0 +1,13 @@
+{
+  "name": "tiddlywiki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tiddlywiki": "^5.1.14"
+  },
+  "scripts": {
+    "build": "tiddlywiki wiki --init server",
+    "start": "tiddlywiki wiki --server"
+  }
+}
